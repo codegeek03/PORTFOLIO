@@ -177,7 +177,7 @@
 
   .image-container {
     order: -1; /* Move the image container to the top */
-    width:50%;
+    width:40%;
     height:auto;
     margin-bottom: 30px;
   }
