@@ -152,14 +152,14 @@
 }
 
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .skill-container {
     width: calc(50% - 50px); /* Adjust width for two elements per row */
   }
   
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 700px) {
   .skill-container {
     width: calc(100% - 50px); /* Adjust width for two elements per row */
   }
@@ -170,7 +170,7 @@
   display:flex;
   flex-wrap:wrap;
 }
-@media (max-width: 1200px) {
+@media only screen and  (max-width: 1200px) {
   .about-content {
     display: flex;
     flex-direction: column;
