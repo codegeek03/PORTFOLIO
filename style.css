@@ -164,11 +164,14 @@
 .about-content{
   display:flex;
   flex-wrap:wrap;
+  
 }
 @media only screen and  (max-width: 1200px) {
   .about-content {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
     
   }
 
@@ -178,5 +181,11 @@
 
   .text-container {
     text-align: center;
+  }
+
+  .navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
   }
 }
