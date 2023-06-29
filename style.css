@@ -132,12 +132,12 @@
 }
 
 .skill-container {
-  width: calc(25% - 50px); /* Adjust width to fit 4 elements with margin */
+  width: calc(25% - 50px); 
   height: 200px;
   border-radius: 10px;
   overflow: hidden;
   margin-right: 50px;
-  margin-bottom: 20px; /* Add margin bottom for spacing */
+  margin-bottom: 20px; 
   border: 5px solid #000;
   display: flex;
   align-items: center;
@@ -191,5 +191,33 @@
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 40px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px; /* Adjust this value according to your footer's height */
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-left: 100px;
+    color: white;
+    font-size: 34px; /* Increase the font size to make the icons bigger */
+    width: 100px;
+    height: auto;
+  }
+  
+  .footer-text {
+    margin: 0;
+    color:white;
+    font-size: 24px;
   }
 }
