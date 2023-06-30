@@ -241,3 +241,17 @@
 #btn:hover{
   background-color:rgb(224, 78, 166)
 }
+
+#cv {
+  margin-left: 42%;
+  margin-top:2%;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border:#000 solid 4px;
+  background-color: rgb(123, 173, 243);
+  box-shadow: 2px 2px #c0c0c0 ;
+ }
+ #cv:hover{
+   background-color:rgb(14, 107, 206)
+ }
+ 
