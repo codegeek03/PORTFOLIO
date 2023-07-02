@@ -1,182 +1,253 @@
-.navbar {
-    background-color: #222;
-    font-size: larger;
-    opacity: 50%;
-    position:fixed;
-    width: 100%;
-   
-  }
-  
-  .navbar-brand,
-  .navbar-nav .nav-link {
-    color: #fff;
-    margin-left: 0px;
-  }
-  
-  .navbar-brand:hover,
-  .navbar-nav .nav-link:hover {
-    color: #ffc107;
-  }
-  .robot-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #c0c0c0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  body {
-    background-color: #f2f2f2; /* Replace with your desired background color */
-    margin-bottom: 80px; /* Adjust the margin-bottom value to match the height of your sticky footer */
-  }
-  #about{
-    background-color: #f2f2f2;
-    padding: 40px 0;
-   
-    
-  }
-  
-  #achievements {
-    background-color: #f2f2f2;
-    padding: 40px 0;
-  }
-  
-  #skills {
-    background-color: #f2f2f2;
-    padding: 40px 0;
-  }
-  
-  #contact {
-    background-color: #f2f2f2;
-    padding: 40px 0;
-    font-size: 30px;
-  }
-  
-  .achievements-content,
-  .contact-content {
-    display: flex;
-    align-items: center;
-  }
-  
-  
-  .image-container {
-    width:40%;
-    height:auto;
-    margin-bottom: 30px;
-    flex: 0 0 550px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 30px;
-    border: 15px solid #000;
-    align-content: center;
-    display: flex;
-    
-    aspect-ratio: 1/1; /* Maintain the aspect ratio for a circular shape */
-  }
-  
-  
-  
-  .image-container img{
-    align-content: center;
-    aspect-ratio: 1/1;
-    height:auto;
-    width:100%;
-  }
-  
-  .text-container {
-    flex: 1;
-    width:90%;
-  }
-  
-  .text-container h2 {
-    font-size: 24px;
-   
-  }
-  
-  .text-container p {
-    font-size: 16px;
-    line-height: 1.6;
-    
-  }
- 
+.navc {
+  background: linear-gradient(to right, #a1a2a6, #fdfdfd);
+  width: 100%;
+  padding: 10px 30px;
+  opacity: 90%;
+  margin-bottom: 4%;
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
- 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50px; /* Adjust this value according to your footer's height */
-    background-color:black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 40px;
-  }
-  
-  .social-icon {
-    display: inline-block;
-    margin-right: 30px;
-    color: white;
-    font-size: 18px;
-    width:50px;
-    height:auto;
-  }
-  
-  .footer-text {
-    margin: 0;
-    color:white;
-    font-size: 14px;
-  }
+}
+
+body {
+  color: white;
+  background: linear-gradient(to right, #00020b, #252222);
+
+}
+
+.nav-item {
+  padding: 0px 15px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: rgb(178, 60, 60);
+}
+
+.navbar {
+  background-color: #222;
+  font-size: larger;
+  opacity: 50%;
+  position: fixed;
+  width: 100%;
+
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+  margin-left: 0px;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+.robot-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #c0c0c0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color: #f2f2f2;
+  /* Replace with your desired background color */
+  margin-bottom: 80px;
+  /* Adjust the margin-bottom value to match the height of your sticky footer */
+}
+
+#about {
+  background: linear-gradient(to right, #00020b, #252222);
+  ;
+  padding: 40px 0;
+
+
+}
+
+#achievements {
+  background: linear-gradient(to right, #00020b, #252222);
+  ;
+  padding: 40px 0;
+}
+
+#skills {
+  background: linear-gradient(to right, #00020b, #252222);
+  ;
+  padding: 40px 0;
+}
+
+#contact {
+  background: linear-gradient(to right, #00020b, #252222);
+  ;
+  padding: 40px 0;
+  font-size: 30px;
+}
+
+.team-member {
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.achievements-content,
+.contact-content {
+  display: flex;
+  align-items: center;
+}
+
+
+.image-container {
+  width: 40%;
+  height: auto;
+  margin-bottom: 30px;
+  flex: 0 0 550px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+  border: 15px solid #000;
+  align-content: center;
+  display: flex;
+
+  aspect-ratio: 1/1;
+  /* Maintain the aspect ratio for a circular shape */
+
+}
+
+
+
+.image-container img {
+  align-content: center;
+  aspect-ratio: 1/1;
+  height: auto;
+  width: 100%;
+
+}
+
+.text-container {
+  flex: 1;
+
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #b908e1, #e79ceb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 600px;
+}
+
+.text-container h2 {
+  font-size: 24px;
+
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.6;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  /* Adjust this value according to your footer's height */
+  background: linear-gradient(to right, #00020b, #252222);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 30px;
+  color: white;
+  font-size: 35px;
+  width: 50px;
+  height: auto;
+}
+
+.footer-text {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+}
+
 .skill-content {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping to multiple rows */
+  flex-wrap: wrap;
+  /* Allow wrapping to multiple rows */
 }
 
 .skill-container {
-  width: calc(25% - 50px); 
+  width: calc(25% - 50px);
   height: 200px;
   border-radius: 10px;
   overflow: hidden;
   margin-right: 50px;
-  margin-bottom: 20px; 
-  border: 5px solid #000;
+  margin-bottom: 20px;
+
+  background: linear-gradient(to right, #e2e2e3, #b5a9a9);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(210, 33, 33);
+
 }
 
+.skill-container:hover {
+  background: linear-gradient(to right, #cd3645, #252222);
+}
 
-.skill-container img{
-  width:100px;
+.skill-container img {
+  width: 100px;
   height: auto;
 }
 
 
 @media only screen and (max-width: 1200px) {
   .skill-container {
-    width: calc(50% - 50px); /* Adjust width for two elements per row */
+    width: calc(50% - 50px);
+    /* Adjust width for two elements per row */
   }
-  
+
 }
 
 
 
-.about-content{
-  display:flex;
-  flex-wrap:nowrap;
-  
+.about-content {
+  display: flex;
+  flex-wrap: nowrap;
+
 }
-@media only screen and  (max-width: 1200px) {
+
+@media only screen and (max-width: 1200px) {
 
   .text-container {
     text-align: left;
     font-size: 20px;
   }
 
-  .navbar{
+  .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 40px;
@@ -187,42 +258,47 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 150px; /* Adjust this value according to your footer's height */
-    background-color:black;
+    height: 150px;
+    /* Adjust this value according to your footer's height */
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
   }
-  
+
   .social-icon {
     display: inline-block;
     margin-left: 100px;
     color: white;
-    font-size: 34px; /* Increase the font size to make the icons bigger */
+    font-size: 34px;
+    /* Increase the font size to make the icons bigger */
     width: 200px;
     height: auto;
   }
-  
+
   .footer-text {
     margin: 0;
-    color:white;
+    color: white;
     font-size: 24px;
   }
 }
-@media only screen and  (max-width: 2000px) {
+
+@media only screen and (max-width: 2000px) {
   .about-content {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     align-items: center;
-    
+
   }
 
   .image-container {
-    order: -1; /* Move the image container to the top */
-    
+    order: -1;
+    /* Move the image container to the top */
+
   }
+
   .text-container {
     text-align: left;
     font-size: 40px;
@@ -231,27 +307,28 @@
 }
 
 #btn {
- margin-left: 45%;
- padding: 10px 20px;
- border-radius: 15px;
- border:#000 solid 4px;
- background-color: rgb(216, 145, 169);
- box-shadow: 2px 2px #c0c0c0 ;
+  margin-left: 45%;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: #000 solid 4px;
+  background-color: rgb(216, 145, 169);
+  box-shadow: 2px 2px #c0c0c0;
 }
-#btn:hover{
-  background-color:rgb(224, 78, 166)
+
+#btn:hover {
+  background-color: rgb(224, 78, 166)
 }
 
 #cv {
   margin-left: 42%;
-  margin-top:2%;
+  margin-top: 2%;
   padding: 10px 20px;
   border-radius: 15px;
-  border:#000 solid 4px;
+  border: #000 solid 4px;
   background-color: rgb(123, 173, 243);
-  box-shadow: 2px 2px #c0c0c0 ;
- }
- #cv:hover{
-   background-color:rgb(14, 107, 206)
- }
- 
+  box-shadow: 2px 2px #c0c0c0;
+}
+
+#cv:hover {
+  background-color: rgb(14, 107, 206)
+}
