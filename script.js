@@ -8,17 +8,17 @@ but.addEventListener("click", function() {
 }
   });
 
-var res=document.getElementById("cv")
-const fileUrl = 'https://github.com/codegeek03/python-codes/blob/main/Profile.pdf';
-const fileName = 'myFile.pdf';
-downloadFile(fileUrl, fileName);
-function downloadFile(url, filename) {
-    const anchorElement = document.createElement('a');
-    anchorElement.href = url;
-      anchorElement.download = filename;
-    anchorElement.style.display = 'none';
-    document.body.appendChild(anchorElement);
-    anchorElement.click();
-    document.body.removeChild(anchorElement);
-  }
+// var res=document.getElementById("cv")
+// const fileUrl = 'https://github.com/codegeek03/python-codes/blob/main/Profile.pdf';
+// const fileName = 'myFile.pdf';
+// downloadFile(fileUrl, fileName);
+// function downloadFile(url, filename) {
+//     const anchorElement = document.createElement('a');
+//     anchorElement.href = url;
+//       anchorElement.download = filename;
+//     anchorElement.style.display = 'none';
+//     document.body.appendChild(anchorElement);
+//     anchorElement.click();
+//     document.body.removeChild(anchorElement);
+//   }
   
